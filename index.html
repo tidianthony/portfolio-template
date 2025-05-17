@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Template</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #b4c7a3; /* Sage Green */
+      color: white;
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section-title {
+      font-size: 1.8rem;
+      color: #7a8371;
+      margin-bottom: 1rem;
+    }
+    .about p, .services p {
+      line-height: 1.6;
+    }
+    .skills ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+    .skills li {
+      background: #d3d3d3; /* Grey */
+      padding: 0.5rem 1rem;
+      border-radius: 20px;
+    }
+    .portfolio-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+    .project-card {
+      background: white;
+      border: 1px solid #ddd;
+      padding: 1rem;
+      border-radius: 10px;
+    }
+    .project-card h4 {
+      margin-top: 0;
+      color: #7a8371;
+    }
+    footer {
+      background: #e6e6e6;
+      padding: 2rem;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.75rem 1.5rem;
+      background-color: #7a8371; /* Dark Sage */
+      color: white;
+      border-radius: 25px;
+      text-decoration: none;
+    }
+    a.button:hover {
+      background-color: #5f6c57;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Jane Doe</h1>
+    <p>Freelance Web Developer & Python Enthusiast</p>
+  </header>
+
+  <section class="about">
+    <h2 class="section-title">About Me</h2>
+    <p>I’m a passionate developer focused on crafting clean, responsive websites and building Python-based tools to automate tasks and solve everyday problems. I'm open to freelance and remote opportunities.</p>
+  </section>
+
+  <section class="skills">
+    <h2 class="section-title">Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Python</li>
+      <li>Responsive Design</li>
+      <li>Web Hosting</li>
+      <li>Git & GitHub</li>
+    </ul>
+  </section>
+
+  <section class="services">
+    <h2 class="section-title">Services</h2>
+    <p>I help clients build fast-loading landing pages, design beautiful portfolio sites, and automate routine business processes using Python. Whether you're starting a brand or need a simple digital presence, I'm here to help.</p>
+  </section>
+
+  <section class="portfolio">
+    <h2 class="section-title">Portfolio</h2>
+    <div class="portfolio-grid">
+      <div class="project-card">
+        <h4>Landing Page Template</h4>
+        <p>Responsive HTML/CSS template for startups and freelancers.</p>
+      </div>
+      <div class="project-card">
+        <h4>Python Automation Script</h4>
+        <p>Automated file renaming tool using Python for a local business.</p>
+      </div>
+      <div class="project-card">
+        <h4>Personal Portfolio</h4>
+        <p>A clean portfolio site built with HTML and CSS.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2 class="section-title">Contact</h2>
+    <p>Want to work together or have a question? Reach out via <a href="#">email</a> or connect on <a href="#">LinkedIn</a>.</p>
+    <a class="button" href="#">Get in Touch</a>
+  </section>
+
+  <footer>
+    &copy; 2025 Your Name. Built with ❤️ using HTML & CSS.
+  </footer>
+</body>
+</html>
