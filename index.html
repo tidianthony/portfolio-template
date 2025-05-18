@@ -3,41 +3,46 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio Template</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <title>Elegant Portfolio Template</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
       font-family: 'Inter', sans-serif;
-      background-color: #ffffff;
-      color: #333;
+      background-color: #FDFBF7;
+      color: #1A1A1A;
     }
     header {
-      background-color: #005f73; /* Teal */
-      color: white;
-      padding: 4rem 2rem;
+      background-color: #1A1A1A;
+      color: #FDFBF7;
+      padding: 5rem 2rem;
       text-align: center;
     }
     header h1 {
-      font-size: 2.5rem;
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
       margin: 0;
     }
     header p {
-      font-size: 1.2rem;
-      margin-top: 0.5rem;
+      font-size: 1.3rem;
+      margin-top: 0.75rem;
+      color: #D4AF37;
     }
     section {
-      padding: 3rem 2rem;
+      padding: 4rem 2rem;
       max-width: 1000px;
       margin: auto;
     }
     .section-title {
-      font-size: 1.8rem;
-      color: #0a9396; /* Aqua */
-      margin-bottom: 1rem;
+      font-size: 2rem;
+      font-family: 'Playfair Display', serif;
+      color: #D4AF37;
+      margin-bottom: 1.5rem;
     }
     .about p, .services p {
-      line-height: 1.6;
+      line-height: 1.8;
+      font-size: 1.1rem;
+      color: #4B4B4B;
     }
     .skills ul {
       list-style: none;
@@ -47,99 +52,109 @@
       gap: 0.75rem;
     }
     .skills li {
-      background: #ee9b00; /* Amber */
-      color: white;
-      padding: 0.5rem 1rem;
-      border-radius: 20px;
+      background: #D4AF37;
+      color: #FDFBF7;
+      padding: 0.6rem 1.2rem;
+      border-radius: 30px;
+      font-weight: 600;
     }
     .portfolio-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 1rem;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
     }
     .project-card {
-      background: #fefae0;
-      border: 1px solid #ddd;
-      padding: 1rem;
-      border-radius: 10px;
+      background: #fff;
+      border: 1px solid #eee;
+      padding: 2rem;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+      transition: transform 0.3s ease;
+    }
+    .project-card:hover {
+      transform: translateY(-5px);
     }
     .project-card h4 {
       margin-top: 0;
-      color: #ca6702; /* Orange */
+      color: #D4AF37;
+      font-family: 'Playfair Display', serif;
     }
     footer {
-      background: #e9d8a6;
+      background: #1A1A1A;
       padding: 2rem;
       text-align: center;
       font-size: 0.9rem;
+      color: #FDFBF7;
     }
     a.button {
       display: inline-block;
-      margin-top: 1rem;
-      padding: 0.75rem 1.5rem;
-      background-color: #94d2bd; /* Mint */
-      color: #003049;
-      border-radius: 25px;
+      margin-top: 2rem;
+      padding: 0.9rem 2rem;
+      background-color: #D4AF37;
+      color: #1A1A1A;
+      border-radius: 30px;
       text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
     }
     a.button:hover {
-      background-color: #76c7b7;
+      background-color: #b99c2d;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Starter Portfolio Template</h1>
-    <p>A simple, modern design for developers and creatives</p>
+    <h1>Elegant Portfolio Template</h1>
+    <p>A premium starting point for showcasing creative work</p>
   </header>
 
   <section class="about">
     <h2 class="section-title">About</h2>
-    <p>This is a ready-made portfolio website template that anyone can customize to showcase their work. It’s designed with simplicity, responsiveness, and clean visuals in mind — perfect for developers, designers, and freelancers.</p>
+    <p>This elegant portfolio website template is crafted for professionals who want to stand out. Built with refined typography, generous spacing, and a luxurious color palette — it's perfect for showcasing premium work and creating a strong online presence.</p>
   </section>
 
   <section class="skills">
     <h2 class="section-title">Features</h2>
     <ul>
-      <li>Responsive Layout</li>
-      <li>Clean HTML/CSS Structure</li>
-      <li>Customizable Sections</li>
-      <li>Fresh Color Palette</li>
-      <li>Modern Typography</li>
+      <li>Luxury Color Theme</li>
+      <li>Responsive & Fluid Layout</li>
+      <li>Elegant Typography</li>
+      <li>Easy to Customize</li>
+      <li>High-End Feel</li>
     </ul>
   </section>
 
   <section class="services">
     <h2 class="section-title">Use Cases</h2>
-    <p>This template can be used as a starter for personal portfolios, freelancer landing pages, or even a small business introduction site. Simply replace the content with your own, and you’re ready to go.</p>
+    <p>Ideal for designers, developers, artists, consultants, and freelancers aiming to create a polished online portfolio. Replace the content with your own branding and showcase your work with confidence.</p>
   </section>
 
   <section class="portfolio">
     <h2 class="section-title">Sample Projects</h2>
     <div class="portfolio-grid">
       <div class="project-card">
-        <h4>Clean Landing Page</h4>
-        <p>A simple landing page layout with smooth sections and call-to-action elements.</p>
+        <h4>Elegant Landing Page</h4>
+        <p>A refined, professional layout with well-balanced sections and visual appeal.</p>
       </div>
       <div class="project-card">
-        <h4>Portfolio Grid</h4>
-        <p>Responsive project grid showcasing example project cards with minimal styling.</p>
+        <h4>Modern Portfolio Grid</h4>
+        <p>Responsive, minimal grid to present multiple projects beautifully.</p>
       </div>
       <div class="project-card">
-        <h4>Template Documentation</h4>
-        <p>Includes clear section labels to help users replace content easily.</p>
+        <h4>Starter Documentation</h4>
+        <p>Clear code structure and comments to make customization easy and fast.</p>
       </div>
     </div>
   </section>
 
   <section class="contact">
     <h2 class="section-title">Customization</h2>
-    <p>Feel free to clone or fork this template and make it your own. Whether you’re looking to start freelancing or just want to build your web presence, this layout is a great starting point.</p>
+    <p>Fork or clone this template to suit your personal brand. This elegant layout is a perfect first impression for any client or employer you want to impress.</p>
     <a class="button" href="#">View on GitHub</a>
   </section>
 
   <footer>
-    &copy; 2025 Open Portfolio Template. Built with ❤️ using HTML & CSS.
+    &copy; 2025 Elegant Portfolio Template. Crafted with style using HTML & CSS.
   </footer>
 </body>
 </html>
